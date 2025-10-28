@@ -1,0 +1,17 @@
+# 小波网络 (Wavelet Network) 依赖包
+
+# 核心依赖
+torch>=1.7.0
+torchvision>=0.8.0
+
+# 小波变换库
+pytorch_wavelets>=1.3.0
+# 安装方式: pip install pytorch_wavelets
+# 或从源码: pip install git+https://github.com/fbcotter/pytorch_wavelets.git
+
+# 可视化（可选）
+matplotlib>=3.3.0
+numpy>=1.19.0
+
+# 如果需要使用pywt进行对比
+pywt>=1.1.1
